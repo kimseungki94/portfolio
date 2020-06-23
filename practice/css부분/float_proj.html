@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        header{
+            background-color: hotpink;
+        }
+        #wrap{
+            margin: 20px 0px;
+            background-color: lawngreen;
+            overflow: auto; 
+        }
+        .left,.right,.realright{
+            float: left;
+            height: 200px;
+        }
+        /*float를 자식으로 인정*/ 
+        .left{
+            width:30%;
+            margin-right: 10px;
+            background-color: lightblue;
+        }
+        .right{
+            width: 30%;
+            margin-right: 10px;
+            background-color: lightpink;
+            text-align: center;
+        }
+        .realright{
+            width: 30%;
+            margin-right: 10px;
+            text-align: center;
+            background-color: magenta;
+        }
+        .right > h2{
+            position: relative;
+        }
+        .right .emoticon{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        footer{
+            background-color: hotpink;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>부스트코스는 정말 유익합니다.</header>
+<div id="wrap">
+   <nav class="left">
+      <ul>
+         <li>menu</li>
+         <li>home</li>
+         <li>name</li>
+      </ul>
+   </nav>
+   <div class="right">
+      <h2>
+         <span>반가워요!</span>
+         <div class="emoticon">:-)</div>
+      </h2>
+   <ul>
+      <li>crong</li>
+      <li>jk</li>
+      <li>honux</li>
+      <li>pobi</li>
+   </ul>
+   </div>
+   <div class="realright">
+      oh~ right
+   </div>
+</div>
+<footer>코드스쿼드(주)</footer>
+</body>
+</html>
