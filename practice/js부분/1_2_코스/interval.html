@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<metacharset="utf-8"/>
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<title>Test</title>
+<metaname="viewport"content="width=device-width, initial-scale=1">
+<linkrel="stylesheet"type="text/css"media="screen"href="main.css"/>
+<scriptsrc="main.js"></script>
+</head>
+<body>
+<h2>interval</h2>
+<button onclick="startAlert();">
+setInterval()
+</button>
+<button onclick="stopAlert();">
+clearInterval()
+</button>
+</body>
+<script>
+startAlert = function() {
+playAlert = setInterval(function() {
+alert("File");
+},2000);
+};
+stopAlert = function(){
+clearInterval(playAlert);
+};
+</script>
+</html>
