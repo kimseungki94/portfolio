@@ -96,3 +96,7 @@ function skCompare(arr,data){
 
 let arr = [];
 console.log(skCompare(arr,data));
+document.createAttribute
+
+var child = document.createElement("li");
+child.inn
