@@ -1,3 +1,4 @@
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", function() {
     console.log(this.responseText);
