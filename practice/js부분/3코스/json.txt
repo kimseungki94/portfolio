@@ -1,0 +1,15 @@
+[
+    {
+        "name":crong",
+        "favorites" : ["golf","facebook"]
+    },{
+        "name":ww",
+        "favorites" : ["ww","aa"]
+    },{
+        "name":ss",
+        "favorites" : ["ee","ss"]
+    },{
+        "name":ff",
+        "favorites" : ["rr","ff"]
+    },
+]
